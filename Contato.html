@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+</head>
+
+<body>
+    <h1>Entre em Contato</h1>
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="Index.html">Home</a></li>
+    </ul>
+
+
+        <p>Muito obrigado por visitar nosso site, não hesite em nos mandar nossa opinião ou entrar em contato para
+            adquirir mais informações com nossos atendentes!</p>
+
+        <br>
+
+        <form>
+            <label for="Nome para contato">Dados para contato:</label>
+
+            <br>
+
+            Nome: <input type="text" name="Nome para contato" placeholder="Digite seu nome aqui">
+
+            <br>
+
+            Número de telefone: <input type="text" name="Número para contato" placeholder="(41) 99999-9999">
+
+            <br>
+
+            Email: <input type="text" name="Email para contato" placeholder="seuemail@gmail.com">
+
+            <br>
+            <br>
+
+            <label for="Opinião">Deixe sua opinião sobre o site aqui:</label>
+
+            <br>
+
+            <textarea name="texto de área" rows="4" cols="50" placeholder="Digite seu texto aqui"></textarea>
+
+            <br>
+
+            <button type="submit" name="Enviar" onclick="alert('Formulário enviado!')"><a
+                    href="FInalcontato.html">Enviar</a></button>
+            <input type="reset" name:="Limpar" onclick="reset()" value="Limpar">
+
+            <br>
+        </form>
+
+        <style>
+body {
+    background-image: url('Contato.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+}
+
+li {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    list-style-type: none;
+    background-color: black;
+}
+
+li :hover {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+p {
+    color: black;
+    position: relative;
+    font-size: 20px;
+}
+
+
+textarea {
+    text-align: auto;
+    font-style: italic;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+form {
+    color: white;
+}
+        </style>
+</body>
+
+</html>
